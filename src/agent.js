@@ -10,6 +10,7 @@ const responseBody = res => res.body;
 
 let token = null;
 const tokenPlugin = req => {
+  // ArchBeagle language walk: a comment-only test edit, closed unmerged.
   if (token) {
     req.set('authorization', `Token ${token}`);
   }

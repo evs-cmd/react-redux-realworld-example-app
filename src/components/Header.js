@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const LoggedOutView = props => {
+  // ArchBeagle language walk: a comment-only test edit, closed unmerged.
   if (!props.currentUser) {
     return (
       <ul className="nav navbar-nav pull-xs-right">

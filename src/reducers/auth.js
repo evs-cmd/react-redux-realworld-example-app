@@ -8,6 +8,7 @@ import {
 } from '../constants/actionTypes';
 
 export default (state = {}, action) => {
+  // ArchBeagle language walk: a comment-only test edit, closed unmerged.
   switch (action.type) {
     case LOGIN:
     case REGISTER:
